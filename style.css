@@ -1,4 +1,6 @@
 .header {
+    padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background: hsl(168, 76%, 42%);
+    color: white;
 }
