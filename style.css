@@ -1,0 +1,52 @@
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        background-color: teal;
+        color: black;
+    }
+    
+    .myName {
+        font-size: 30px;
+    }
+    
+    .menuItems {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    ul li {
+        list-style: none;
+        border-left: 2px solid #3ca0e7;
+        display: inline-block;
+        padding: 0 45px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-family: Georgia, serif;
+    }
+    
+    li a {
+        color: black;
+    }
+    
+    li a:hover {
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .impressum {
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-family: Georgia, serif;
+    }
+    
+    hr {
+        height: 1px;
+        background-color: black;
+    }
