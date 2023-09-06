@@ -49,8 +49,9 @@
 }
 
 .portfolio-item img {
-    max-width: 100%;
+    max-width: 10%;
     height: auto;
+    margin-left: 85%;
 }
 
 
@@ -59,17 +60,24 @@
 .contact {
     background-color: #f9f9f9;
     padding: 50px 0;
+    text-align: center;
 }
 
-.contact h2 {
-    font-size: 24px;
+.contact-links {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.contact p {
-    font-size: 16px;
-    text-align: center;
+.contact-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
 }
 
 
@@ -80,6 +88,25 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    /* Links nebeneinander anordnen */
+    justify-content: center;
+    /* Zentriert die Links horizontal */
+    gap: 20px;
+    /* Abstand zwischen den Links */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
