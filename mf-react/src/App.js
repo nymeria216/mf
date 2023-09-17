@@ -38,6 +38,15 @@ export default function App() {
   const [password, setPassword] = useState("");
   const [authenticated, setAuthenticated] = useState(false);
   
+  // Funktion zur Überprüfung des Passworts
+  const checkPassword = () => {
+    if (password === "deinPasswort") {
+      setAuthenticated(true);
+    } else {
+      alert("Falsches Passwort");
+    }
+  };
+
   return (
     <main>
       <Navbar />

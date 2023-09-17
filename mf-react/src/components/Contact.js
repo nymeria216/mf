@@ -29,14 +29,7 @@ const styles = {
 };
 
 const Contact = () => {
-  // Funktion zur Überprüfung des Passworts
-  const checkPassword = () => {
-    if (password === "deinPasswort") {
-      setAuthenticated(true);
-    } else {
-      alert("Falsches Passwort");
-    }
-  };
+  
 
   return (
     <div style={styles.container}>     
