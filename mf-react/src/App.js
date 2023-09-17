@@ -49,11 +49,6 @@ export default function App() {
 
   return (
     <main>
-      <Navbar />
-      <About />
-      <Projects />
-      <BigFive />
-      <Contact />
       <div style={styles.container}></div>
         <header>
           <h1>Willkommen auf meiner Webseite</h1>
@@ -88,6 +83,11 @@ export default function App() {
             </button>
           </section>
         )}
+      <Navbar />
+      <About />
+      <Projects />
+      <BigFive />
+      <Contact />
     </main>
   );
 }
