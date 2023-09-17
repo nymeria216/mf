@@ -1,51 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 // Stile für die Webseite (du kannst sie anpassen)
 const styles = {
   container: {
-    maxWidth: '800px',
-    margin: '0 auto',
-    padding: '20px',
+    maxWidth: "800px",
+    margin: "0 auto",
+    padding: "20px",
   },
   section: {
-    marginBottom: '20px',
+    marginBottom: "20px",
   },
   passwordInput: {
-    marginRight: '10px',
+    marginRight: "10px",
   },
   button: {
-    padding: '10px 20px',
-    background: '#007bff',
-    color: '#fff',
-    border: 'none',
-    cursor: 'pointer',
+    padding: "10px 20px",
+    background: "#007bff",
+    color: "#fff",
+    border: "none",
+    cursor: "pointer",
   },
   footer: {
-    backgroundColor: '#333',
-    color: '#fff',
-    padding: '10px 0',
-    textAlign: 'center',
+    backgroundColor: "#333",
+    color: "#fff",
+    padding: "10px 0",
+    textAlign: "center",
   },
 };
 
 const App = () => {
   // Zustände für das Passwort und den gesicherten Bereich
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState("");
   const [authenticated, setAuthenticated] = useState(false);
 
   // Funktion zur Überprüfung des Passworts
   const checkPassword = () => {
-    if (password === 'deinPasswort') {
+    if (password === "deinPasswort") {
       setAuthenticated(true);
     } else {
-      alert('Falsches Passwort');
+      alert("Falsches Passwort");
     }
   };
 
   return (
     <div style={styles.container}>
       <header>
-        <h1>Willkommen auf meiner Webseite</h1>
+        <h1>Willkommen auf meiner Webseite :)</h1>
       </header>
       <section style={styles.section}>
         <h2>Über mich</h2>
