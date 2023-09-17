@@ -1,4 +1,4 @@
-import React, { useState }from "react";
+import React from "react";
 
 // Stile für die Webseite (du kannst sie anpassen)
 const styles = {
