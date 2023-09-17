@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <div style={styles.container}>
       <header>
-        <h1>Willkommen auf meiner Webseite :)</h1>
+        <h1>Willkommen auf meiner Webseite</h1>
       </header>
       <section style={styles.section}>
         <h2>Über mich</h2>
