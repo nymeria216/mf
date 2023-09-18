@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import './App.css';
+
 import About from "./components/About";
 import BigFive from "./components/BigFive";
 import Contact from "./components/Contact";
@@ -8,7 +10,7 @@ import Projects from "./components/Projects";
 
 const styles = {
   container: {
-    maxWidth: "800px",
+    maxWidth: "300px",
     margin: "0 auto",
     padding: "20px",
   },
@@ -49,7 +51,12 @@ export default function App() {
 
   return (
     <main>
-      <div style={styles.container}></div>
+      <div>
+        <div className="loading-container">
+          <img src={require('./img/loading.gif')} alt="loading..." />
+        </div>
+      </div>
+      {/* <div style={styles.container}></div>
         <header>
           <h1>Willkommen auf meiner Webseite</h1>
         </header>
@@ -87,7 +94,7 @@ export default function App() {
       <About />
       <Projects />
       <BigFive />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }
