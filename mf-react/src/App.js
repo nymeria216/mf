@@ -1,53 +1,54 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from 'react';
 
 import './App.css';
 
-import About from "./components/About";
-import BigFive from "./components/BigFive";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+// import About from "./components/About";
+// import BigFive from "./components/BigFive";
+// import Contact from "./components/Contact";
+// import Navbar from "./components/Navbar";
+// import Projects from "./components/Projects";
 
-const styles = {
-  container: {
-    maxWidth: "300px",
-    margin: "0 auto",
-    padding: "20px",
-  },
-  section: {
-    marginBottom: "20px",
-  },
-  passwordInput: {
-    marginRight: "10px",
-  },
-  button: {
-    padding: "10px 20px",
-    background: "#007bff",
-    color: "#fff",
-    border: "none",
-    cursor: "pointer",
-  },
-  footer: {
-    backgroundColor: "#333",
-    color: "#fff",
-    padding: "10px 0",
-    textAlign: "center",
-  },
-};
+// const styles = {
+//   container: {
+//     maxWidth: "300px",
+//     margin: "0 auto",
+//     padding: "20px",
+//   },
+//   section: {
+//     marginBottom: "20px",
+//   },
+//   passwordInput: {
+//     marginRight: "10px",
+//   },
+//   button: {
+//     padding: "10px 20px",
+//     background: "#007bff",
+//     color: "#fff",
+//     border: "none",
+//     cursor: "pointer",
+//   },
+//   footer: {
+//     backgroundColor: "#333",
+//     color: "#fff",
+//     padding: "10px 0",
+//     textAlign: "center",
+//   },
+// };
 
 export default function App() {
-  // Zustände für das Passwort und den gesicherten Bereich
-  const [password, setPassword] = useState("");
-  const [authenticated, setAuthenticated] = useState(false);
+  // // Zustände für das Passwort und den gesicherten Bereich
+  // const [password, setPassword] = useState("");
+  // const [authenticated, setAuthenticated] = useState(false);
   
-  // Funktion zur Überprüfung des Passworts
-  const checkPassword = () => {
-    if (password === "deinPasswort") {
-      setAuthenticated(true);
-    } else {
-      alert("Falsches Passwort");
-    }
-  };
+  // // Funktion zur Überprüfung des Passworts
+  // const checkPassword = () => {
+  //   if (password === "deinPasswort") {
+  //     setAuthenticated(true);
+  //   } else {
+  //     alert("Falsches Passwort");
+  //   }
+  // };
 
   return (
     <main>
