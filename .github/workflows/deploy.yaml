@@ -19,7 +19,7 @@ jobs:
           node-version: 18 # Use the desired Node.js version
 
       - name: Install and Build
-        working-directory: ./mf-react
+        working-directory: ./mf
         run: |
           npm ci
           npm run build
