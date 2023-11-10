@@ -61,18 +61,18 @@ const Loader = ({ setShowLoader }) => {
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       {/* Animated SVG */}
-      <motion.svg
+      {/* <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 1 920.55 921.26"
         style={{ width: "30vw", height: "30vw" }}
-      >
+      > */}
         {/* First SVG path */}
-        <motion.path
+        {/* <motion.path
           d="m593.27,789.8c-33.66,13.7-69.92,22.44-107.83,25.16v106.3c37.32-2.01,73.46-8.62,107.83-19.02,39.8-12.05,77.36-29.41,111.85-51.14,123.9-78.19,207.87-213.66,214.96-369.21.35-7.09.47-14.17.47-21.26,0-29.53-2.83-58.46-8.15-86.57-24.21-127.68-101.1-236.81-207.28-303.78v133.94c47.48,45.47,82.32,104.06,98.74,169.84h-210.59V19.02c-34.37-10.39-70.51-16.89-107.83-19.02v481.89h328.46c-5.43,92.24-46.18,175.04-108.78,235.16-32.13,30.83-70.04,55.63-111.85,72.76h0Z"
           variants={iconVariant2}
           initial="hidden"
           animate="visible"
-        />
+        /> */}
 
         {/* Second SVG path */}
         <motion.path
@@ -81,7 +81,7 @@ const Loader = ({ setShowLoader }) => {
           initial="hidden"
           animate="visible"
         />
-      </motion.svg>{" "}
+      {/* </motion.svg>{" "} */}
     </div>
   );
 };

@@ -29,7 +29,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.8, duration: 0.5, type: "spring" }}
           className="fa-brands fa-github"
           aria-hidden="true"
-          title="Michael Yeates' GitHub Profile"
+          title="Melissa Futtig' GitHub Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mdyeates/">
@@ -40,7 +40,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.7, duration: 0.5, type: "spring" }}
           className="fa-brands fa-linkedin"
           aria-hidden="true"
-          title="Michael Yeates' LinkedIn Profile"
+          title="Melissa Futtig' LinkedIn Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
@@ -51,7 +51,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.6, duration: 0.5, type: "spring" }}
           className="fa-brands fa-instagram"
           aria-hidden="true"
-          title="Michael Yeates' Instagram Profile"
+          title="Melissa Futtig' Instagram Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
@@ -62,7 +62,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
           className="fa-brands fa-twitter"
           aria-hidden="true"
-          title="Michael Yeates' Twitter Profile"
+          title="Melissa Futtig' Twitter Profile"
         ></motion.i>
       </a>
     </div>
