@@ -71,9 +71,9 @@ const AboutMe = ({ name }) => {
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  HStarting the dual training program straight away was the best decision I could have made. My 
+                  Starting the dual training program straight away was the best decision I could have made. My 
                   focus is on cloud services and infrastructure management. DevOps in the cloud has helped me 
-                  to gan a lot of cloud knowledge over the past two years.
+                  to gain a lot of cloud knowledge over the past two years.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
@@ -82,14 +82,14 @@ const AboutMe = ({ name }) => {
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  In ordner to gather inspriation and new ideas, I like to travel to the mountains or visit 
+                  In ordner to gather inspiration and new ideas, I like to travel to the mountains or visit 
                   nature on boat and camping tours on paths that are unknown to me.
                 </motion.p>
               </motion.div>
 
               {/* Button to view the portfolio */}
               <NavLink to="/portfolio">
-                <Button name="View Portfolio" />
+                <Button name="View My Portfolio" />
               </NavLink>
             </motion.div>
           </div>

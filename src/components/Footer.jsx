@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 // import { BiGitRepoForked } from "react-icons/bi";
 // import { motion } from "framer-motion";
 import SocialIcons from "./SocialIcons";
+// import Impressum from "./Impressum";
 
 /**
  * Represents the footer section of the website.
@@ -52,6 +53,9 @@ const Footer = () => {
       <div className="copyright">
         &copy;{currentYear} My Portfolio by{" Melissa"}
       </div>
+      {/* Impressum */}
+      Impressum
+      {/* <Impressum /> */}
     </footer>
   );
 };
