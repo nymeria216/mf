@@ -13,8 +13,8 @@
 
   <br />
   <div align="center">
-    <a href="https://github.com/mdyeates/my-portfolio">
-      <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
+    <a href="https://github.com/nymeria216/mf">
+      <img src="src/images/MF.png" alt="Logo" width="200" height="200">
     </a>
     <h1 align="center">michaelyeates.co.uk</h1>
     <p align="center">
