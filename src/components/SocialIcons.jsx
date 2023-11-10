@@ -21,7 +21,7 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/mdyeates">
+      <a className="icon" style={styles.icon} href="https://github.com/nymeria216">
         {/* GitHub Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
@@ -32,7 +32,7 @@ const SocialIcons = () => {
           title="Melissa Futtig' GitHub Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mdyeates/">
+      <a className="icon" style={styles.icon} href="https://de.linkedin.com/in/melissa-futtig-67379521a">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
@@ -43,7 +43,7 @@ const SocialIcons = () => {
           title="Melissa Futtig' LinkedIn Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
+      <a className="icon" style={styles.icon} href="https://www.instagram.com/melissa_futtig/">
         {/* Instagram Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
@@ -54,7 +54,7 @@ const SocialIcons = () => {
           title="Melissa Futtig' Instagram Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
+      <a className="icon" style={styles.icon} href="https://twitter.com/mfuttig">
         {/* Twitter Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}

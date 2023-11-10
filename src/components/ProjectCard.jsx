@@ -43,7 +43,7 @@ const ProjectCard = ({ title, image, color, id }) => {
           <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
             <h3 className="projectTitle">{title}</h3>
             <span className="viewWork">
-              View Work <FiArrowUpRight />
+              Check it out! <FiArrowUpRight />
             </span>
           </div>
           <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
