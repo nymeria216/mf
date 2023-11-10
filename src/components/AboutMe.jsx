@@ -3,8 +3,8 @@ import { useInView } from "react-intersection-observer";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
 import aboutMeImg from "../images/aboutme.jpeg";
-import { useTranslation } from 'react-i18next';
-import i18next from "i18next";
+// import { useTranslation } from 'react-i18next';
+// import i18next from "i18next";
 
 /**
  * Represents the About Me section.
@@ -16,7 +16,7 @@ import i18next from "i18next";
 
 const AboutMe = ({ name }) => {
   // adding constant t
-  const {t, i18n} = useTranslation();
+  // const {t, i18n} = useTranslation();
 
   // Using react-intersection-observer to determine if the component is in view
   const [ref, inView] = useInView({
