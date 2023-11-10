@@ -1,0 +1,51 @@
+[{
+        "title": "Big5",
+        "description": "My Big Five For Life",
+        "image": "/projectImages/numberFive.png",
+        "image2": "/projectImages/big5.jpeg",
+        "image3": "/projectImages/routes3.png",
+        "body": "",
+        "technologies": ["PPL", "French", "Mountains", "Mental Health", "Study"],
+        "bgcolor": "var(--hl2-color)",
+        "id": "1"
+    },
+    {
+        "title": "CV",
+        "description": "My Curriculum Vitae",
+        "image": "/projectImages/CV.png",
+        "image2": "/projectImages/storm.jpeg",
+        "image3": "/projectImages/weather3.png",
+        "technologies": ["JavaScript", "", "HTML", "CSS"],
+        "body": "",
+        "github": "https://github.com/mdyeates/weather-app",
+        "deployed": "https://mdyeates.github.io/weather-app/",
+        "bgcolor": "var(--hl-color)",
+        "id": "2"
+    },
+    {
+        "title": "Sports, Vacation And Me",
+        "description": "Insights from my sports and vacation life",
+        "image": "/projectImages/sportVacationAndMe.png",
+        "image2": "/projectImages/mountainMe.jpeg",
+        "image3": "/projectImages/team3.png",
+        "technologies": ["JavaScript", "Node", "Bootstrap", "Testing"],
+        "body": "",
+        "github": "https://github.com/mdyeates/team-dashboard",
+        "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+        "bgcolor": "#6c4bf4",
+        "id": "3"
+    },
+    {
+        "title": "Family",
+        "description": "Get To Know My Family",
+        "image": "/projectImages/family.jpeg",
+        "image2": "/projectImages/javascript.jpeg",
+        "image3": "/projectImages/quiz3.png",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "body": "",
+        "github": "https://github.com/nymeria216/thefuttigoriginals",
+        "deployed": "https://thefuttigoriginals.de/",
+        "bgcolor": "#f85781",
+        "id": "4"
+    }
+]
