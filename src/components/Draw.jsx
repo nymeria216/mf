@@ -10,12 +10,12 @@ const Draw = () => {
   // Create a reference to the canvas element
   const canvasRef = useRef(null);
   // Store the last position of the mouse
-  const lastPositionRef = useRef(null);
+  // const lastPositionRef = useRef(null);
 
   useEffect(() => {
     // Get the canvas and its context
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext("2d");
+    // const canvas = canvasRef.current;
+    // const ctx = canvas.getContext("2d");
 
     // Add a mousemove event listener to the canvas
     // canvas.addEventListener("mousemove", (e) => {
