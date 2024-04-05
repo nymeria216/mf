@@ -4,8 +4,8 @@
         "image": "/projectImages/numberFive.png",
         "image2": "/projectImages/big5.jpeg",
         "image3": "/projectImages/routes3.png",
-        "bodyComponent": "/src/components/MyReactComponent.jsx",
-        "technologies": ["PPL", "Tokyo", "Mountains", "Mental and Physical Health", "Study"],
+        "body": "",
+        "technologies": ["PPL", "French", "Mountains", "Mental Health", "Study"],
         "bgcolor": "var(--hl2-color)",
         "id": "1"
     },
