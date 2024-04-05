@@ -6,6 +6,7 @@ import PageNotFound from "../../404/PageNotFound";
 import Button from "../../../components/Button";
 import Image from "../../../components/Image";
 import projects from "../../../_data/projects.json";
+import MyComponentContent from "../../../components/MyReactComponent";
 
 /**
  * Represents the ProjectDetails page component.
@@ -71,6 +72,8 @@ const ProjectDetails = () => {
                   transition={{ duration: 0.5, delay: i * 0.3, ease: "easeInOut" }}
                 >
                   {paragraph}
+                  {/* Render the content based on bodyComponent */}
+                  {project.body === "MyComponentContent" && <MyComponentContent />} 
                 </motion.p>
               ))}
             </div>
