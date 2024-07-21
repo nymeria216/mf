@@ -12,10 +12,10 @@
     {
         "title": "Sport",
         "description": "My sports journey",
-        "image": "/projectImages/CV.png",
+        "image": "/projectImages/canoe-me.jpeg",
         "image2": "/projectImages/storm.jpeg",
         "image3": "/projectImages/weather3.png",
-        "technologies": ["JavaScript", "", "HTML", "CSS"],
+        "technologies": ["canoe-racing"],
         "body": "",
         "github": "https://github.com/mdyeates/weather-app",
         "deployed": "https://mdyeates.github.io/weather-app/",
@@ -32,7 +32,7 @@
         "body": "",
         "github": "https://github.com/mdyeates/team-dashboard",
         "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
-        "bgcolor": "#6c4bf4",
+        "bgcolor": "#4BF497",
         "id": "3"
     },
     {
@@ -41,7 +41,7 @@
         "image": "/projectImages/cool_wall.jpeg",
         "image2": "/projectImages/javascript.jpeg",
         "image3": "/projectImages/quiz3.png",
-        "technologies": ["JavaScript", "HTML", "CSS"],
+        "technologies": ["cloud development", "asset management", "it forensic"],
         "body": "",
         "bgcolor": "#f85781",
         "id": "4"
