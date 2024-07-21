@@ -10,8 +10,8 @@
         "id": "1"
     },
     {
-        "title": "CV",
-        "description": "My Curriculum Vitae",
+        "title": "Sport",
+        "description": "My sports journey",
         "image": "/projectImages/CV.png",
         "image2": "/projectImages/storm.jpeg",
         "image3": "/projectImages/weather3.png",
@@ -23,8 +23,8 @@
         "id": "2"
     },
     {
-        "title": "Sports, Vacation And Me",
-        "description": "Insights from my sports and vacation life",
+        "title": "PPL(A)",
+        "description": "My PPL(A)",
         "image": "/projectImages/sportVacationAndMe.png",
         "image2": "/projectImages/mountainMe.jpeg",
         "image3": "/projectImages/team3.png",
@@ -36,15 +36,13 @@
         "id": "3"
     },
     {
-        "title": "Family",
-        "description": "Get To Know My Family",
-        "image": "/projectImages/family.jpeg",
+        "title": "Work",
+        "description": "My Jobs",
+        "image": "/projectImages/cool_wall.jpeg",
         "image2": "/projectImages/javascript.jpeg",
         "image3": "/projectImages/quiz3.png",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "body": "",
-        "github": "https://github.com/nymeria216/thefuttigoriginals",
-        "deployed": "https://thefuttigoriginals.de/",
         "bgcolor": "#f85781",
         "id": "4"
     }
