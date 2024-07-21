@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       {/* Impressum */}
       Impressum
-      {/* <Impressum /> */}
+      <Impressum />
     </footer>
   );
 };
