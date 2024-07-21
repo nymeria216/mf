@@ -27,7 +27,7 @@
         "description": "My PPL(A)",
         "image": "/projectImages/sportVacationAndMe.png",
         "technologies": ["private pilot license", "BZF I", "EAQ"],
-        "body": "This project represents my journey in obtaining a Private Pilot License (PPL). It includes various stages of learning, practical flying experience, and the examinations I undertook. The included images capture moments from my training, flights, and achievements.",
+        "body": "This project represents my journey in obtaining a Private Pilot License (PPL). It includes various stages of learning, practical flying experience, and the examinations I undertook.\n\nThe included images capture moments from my training, flights, and achievements.\n\nThe PPL(A) training was challenging but immensely rewarding, and it has opened up new possibilities for personal and professional growth.",
         "github": "https://github.com/mdyeates/team-dashboard",
         "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
         "bgcolor": "#4BF497",
