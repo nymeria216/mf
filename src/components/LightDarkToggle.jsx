@@ -34,15 +34,16 @@ const LightDarkToggle = () => {
   useEffect(() => {
     const colors = !islightMode
       ? {
-          // Light Colors
-          "--bg-color": "#131a22",
-          "--bg2-color": "#232f3e19",
-          "--hl-color": "#48a3c6",
-          "--hl2-color": "#ea5b5c",
-          "--text-color": "#f3f3f3",
-          "--secondary-text-color": "#999999",
-          "--grey": "#9f9f9f76",
-        }
+        // Light Colors
+        "--bg-color": "#ffffff",          // White background
+        "--bg2-color": "#f4f4f4",         // Light grey background
+        "--hl-color": "#007acc",          // Highlight color (blue)
+        "--hl2-color": "#ff5733",         // Secondary highlight color (orange)
+        "--text-color": "#333333",        // Dark grey text
+        "--secondary-text-color": "#777777", // Lighter grey text
+        "--grey": "#cccccc"              // Light grey
+    }
+    
       : {
           // Dark Colors
           "--bg-color": "#101010",
