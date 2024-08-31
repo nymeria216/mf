@@ -30,7 +30,7 @@ export default function Image({ src, height, width, size, alt, opacity }) {
         src={src}
         className="fadeIn"
         style={{
-          display: loading ? "none" : "block",
+          display: loading ? "block" : "inline",
           width: "100%",
           height: "100%",
           objectFit: "cover",
@@ -45,7 +45,7 @@ export default function Image({ src, height, width, size, alt, opacity }) {
       <div
         className="spinner"
         style={{
-          display: loading ? "block" : "inline-block",
+          display: loading ? "block" : "none",
           fontSize: size ? size : "24px",
         }}
       ></div>
