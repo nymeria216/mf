@@ -45,7 +45,7 @@ export default function Image({ src, height, width, size, alt, opacity }) {
       <div
         className="spinner"
         style={{
-          display: loading ? "block" : "none",
+          display: loading ? "block" : "inline-block",
           fontSize: size ? size : "24px",
         }}
       ></div>
