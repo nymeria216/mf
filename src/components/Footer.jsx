@@ -54,8 +54,8 @@ const Footer = () => {
         &copy;{currentYear} My Portfolio by{" Melissa"}
       </div>
       {/* Impressum */}
-      Impressum
-      <Impressum />
+      {/* Impressum
+      <Impressum /> */}
     </footer>
   );
 };
