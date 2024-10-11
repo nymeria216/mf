@@ -1,0 +1,37 @@
+[{
+        "title": "Big5",
+        "description": "My Big Five For Life",
+        "image": "/projectImages/numberFive.png",
+        "body": "The 'Big Five for Life' concept encourages individuals to focus on their five most important life goals to lead a fulfilling and purpose-driven life.\n\n1. **Pursuing my Private Pilot License (PPL(A))**: I am currently training for my PPL(A) at EDAQ Oppin near EDDP airport, transitioning from photography to aviation to explore the world from above.\n\n2. **Relearning French to achieve fluency**: I am working on becoming fluent in French to enhance my cultural and professional opportunities.\n\n3. **Visiting the mountains annually**: I prioritize annual mountain trips for hiking and reconnecting with nature, which is vital for my well-being.\n\n4. **Starting my studies in IT Forensics**: In October 2024, I will begin studying IT Forensics at the University of Mittweida to deepen my knowledge in IT security and data breach investigation.\n\n5. **Maintaining good mental health and well-being**: I focus on practices like mindfulness and exercise to ensure my mental health and overall well-being.",
+        "technologies": ["PPL(A)", "French", "Mountains", "Mental Health", "Study"],
+        "bgcolor": "var(--hl2-color)",
+        "id": "1"
+    },
+    {
+        "title": "Sport",
+        "description": "My sports journey",
+        "image": "/projectImages/canoe-me.jpeg",
+        "technologies": ["canoe-racing"],
+        "body": "",
+        "bgcolor": "var(--hl-color)",
+        "id": "2"
+    },
+    {
+        "title": "PPL(A)",
+        "description": "My PPL(A)",
+        "image": "/projectImages/sportVacationAndMe.png",
+        "technologies": ["private pilot license", "BZF I", "EDAQ"],
+        "body": "I am currently in the stage of doing my Private Pilot License (PPL(A)) and have already had some amazing lessons. My home base is EDAQ Oppin near EDDP airport.\n\nI came to aviation via photography and no longer want to take pictures, so I decided to see the world not only through my lens but also from above.",
+        "bgcolor": "#4BF497",
+        "id": "3"
+    },
+    {
+        "title": "Work",
+        "description": "My Jobs",
+        "image": "/projectImages/cool_wall.jpeg",
+        "technologies": ["cloud development", "asset management", "it forensics"],
+        "body": "In August 2021, I began my IT career at Deloitte Wirtschaftsprüfungsgesellschaft in Leipzig, Germany, as a trainee. By February 2024, I had gained extensive knowledge in network architecture, configuring Cisco hardware, and building cloud infrastructure.\n\nAfter completing my apprenticeship at Deloitte, I continued with the company and transitioned to another project where I manage IT assets and ensure compliance with cybersecurity regulations.\n\nIn October 2024, I will start studying IT Forensics at the University of Mittweida, Germany, to deepen my understanding of IT security, data breaches, and related topics.",
+        "bgcolor": "#f85781",
+        "id": "4"
+    }
+]
