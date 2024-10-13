@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  
     //sticky header
       $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
@@ -7,7 +7,7 @@ $(document).ready(function() {
         } else {
           $(".header-area").removeClass("sticky");
         }
-    
+   
         // Update the active section in the header
         updateActiveSection();
       });
@@ -42,7 +42,6 @@ $(document).ready(function() {
         $(".header ul li a").removeClass("active");
         $(this).addClass("active");
       });
-    
   
       //Initial content revealing js
       ScrollReveal({
@@ -108,4 +107,13 @@ $(document).ready(function() {
           $(".header ul li a[href='#" + target + "']").addClass("active");
         }
       });
+      
     }  
+    function changelang(){
+      var currentlanguage = getComputedStyle(document.body).getPropertyValue("--language")
+      if (currentlanguage == 'data-en'){
+      document.documentElement.style.setProperty('--language', 'data-du')
+      } else {
+      document.documentElement.style.setProperty('--language', 'data-en')
+      }
+      }

@@ -23,13 +23,21 @@
                 </a>
 
                 <ul class="navbar">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
+                    <li>
+                        <a href="#home" class='bilanguage' data-en="Home" data-du="Start"></a>
+                    </li>
+                    <li>
+                        <a href="#about" class='bilanguage' data-en="About" data-du="Allgemein"></a>
+                    </li>
+                    <li>
+                        <a href="#education" class='bilanguage' data-en="Education" data-du="Bildung"></a>
+                    </li>
                     <li><a href="#projects">PPL(A)</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li>
+                        <a href="#contact" class='bilanguage' data-en="Contact" data-du="Kontakt"></a>
+                    </li>
+                    <button type="button" class='bilanguage-button' onclick='changelang()' data-en='Change language' data-du='Sprache wechseln'></button>
                 </ul>
-
                 <div class="menu_icon">
                     <i class="fa fa-bars"></i>
                 </div>
@@ -44,47 +52,49 @@
             <img src="files/aboutme 2.jpeg" alt="profile picture">
         </div>
         <div class="profile-text">
-            <h5>Hello Hello! Nice to meet you! I'm </h5>
+            <h5 class='bilanguage' data-en="Hello Hello! Nice to meet you! I'm " data-du="Hallo Hallo! Schön auf dich zu treffen! Ich bin"></h5>
             <br>
-            <h1>Melissa</h1><br>
-            <p>Welcome to my personal website. Some time ago i was bored and thought let's build a portfolio webpage. So here we are.</p>
+            <!-- <p class="bilanguage-inline" data-en="I'm " data-du="Ich bin"></p> -->
+            <h1 class="bilanguage-inline">Melissa</h1><br>
+            <p class='bilanguage' data-en="Welcome to my personal website. Some time ago i was bored and thought let's build a portfolio webpage. So here we are." data-du="Willkommen auf meiner persönlichen Website. Vor einiger Zeit war mir langweilig und ich dachte mir, let's go - erstellen wir eine Portfolio-Webseite. Das ist nun das ektuelle Ergbenis.">
+            </p>
 
-            <div class="btn-group">
-                <!-- <a href="files/SowndharResume.pdf" class="btn   active">Download CV</a> -->
-                <a href="mailto: melissa.futtig@protonmail.com" class="btn">Contact</a>
+            <div class="btn-group ">
+                <!-- <a href="files/SowndharResume.pdf " class="btn active ">Download CV</a> -->
+                <a href="mailto: melissa.futtig@protonmail.com " class="btn ">Contact</a>
             </div>
 
-            <div class="social">
-                <a href="mailto:melissa.futtig@protonmail.comcom"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/nymeria216"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/melissa_futtig/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://de.linkedin.com/in/melissa-futtig-67379521a"><i class="fa-brands fa-linkedin"></i></a>
+            <div class=" social ">
+                <a href="mailto:melissa.futtig@protonmail.comcom "><i class="fa fa-envelope "></i></a>
+                <a href="https://github.com/nymeria216 "><i class="fa-brands fa-github "></i></a>
+                <a href="https://www.instagram.com/melissa_futtig/ "><i class="fa-brands fa-instagram "></i></a>
+                <a href="https://de.linkedin.com/in/melissa-futtig-67379521a "><i class="fa-brands fa-linkedin "></i></a>
             </div>
         </div>
     </div>
 
     <!-------------------------- About Section -------------------------->
-    <section class="about-area" id="about">
-        <div class="container">
-            <div class="about">
+    <section class="about-area " id="about ">
+        <div class="container ">
+            <div class="about ">
 
-                <div class="about-content">
-                    <h4>About Me</h4>
+                <div class="about-content ">
+                    <h4 class='bilanguage' data-en="About me" data-du="Über mich"></h4>
                     <ul>
-                        <p>In January 2024 i have finished my IT-apprenticeship at the well-known company Deloitte GmbH.</p>
-                        <p>There i have gained a lot of knowledge. Starting the dual training programm straight away was one of the best decisions i could have ever made.</p>
-                        <p>My focus is on cloud services and infrastructure management. DevOps in the cloud has helped me to gain a lot of cloud knowledge over the past two years.</p>
+                        <p class='bilanguage' data-en="In January 2024 i have finished my IT-apprenticeship at the well-known company Deloitte GmbH." data-du="Im Januar 2024 habe ich meine Informatikausbildung bei der Deloitte GmbH abgeschlossen."></p>
+                        <p class='bilanguage' data-en="There i have gained a lot of knowledge. Starting the dual training programm straight away was one of the best decisions i could have ever made." data-du="Während dieser Ausbildung hatte ich viele Möglichkeiten mein Wissen zu erweitern und mit dieser zu beginnen, war eine der besten Entscheidungen, die ich jemals hätte treffen können."></p>
+                        <p class='bilanguage' data-en="My focus is on cloud services and infrastructure management. DevOps in the cloud has helped me to gain a lot of cloud knowledge over the past two years." data-du="Mein Schwerpunkt liegt auf Cloud-Diensten und Infrastrukturmanagement. DevOps in der Cloud hat mir geholfen, in den letzten zwei Jahren eine Reihe von Kenntnissen zu erwerben."></p>
                     </ul>
                 </div>
 
-                <div class="about-skills">
+                <div class="about-skills ">
                     <ul>
                         <li>Name: Melissa Futtig</li>
-                        <li>Age: 23</li>
-                        <li>From: Germany</li>
+                        <li class='bilanguage' data-en="Age: 23" data-du="Alter: 23"></li>
+                        <li class='bilanguage' data-en="From: Germany" data-du="Herkunft: Deutschland"></li>
                         <li>Email: melissa.futtig@protonmail.com</li>
-                        <li>Availabiltiy: Fulltime</li>
-                        <li>Experience&lt; 1yr</li>
+                        <li class='bilanguage' data-en="Availability: Fulltime" data-du="Verfügbarkeit: Vollzeit"></li>
+                        <li class='bilanguage' data-en="Experience: &lt; 1 year" data-du="Erfahrung: &lt; 1 Jahr"></li>
                     </ul>
                 </div>
             </div>
@@ -93,44 +103,40 @@
 
 
     <!-------------- Education & Internship -------------->
-    <section class="education-content" id="education">
-        <div class="container">
-            <div class="row">
+    <section class="education-content " id="education ">
+        <div class="container ">
+            <div class="row ">
                 <div class="education ">
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-                        <div class="timeline-box">
-                            <div class="timeline">
+                    <h3 class="bilanguage-title" data-en="Education" data-du="Bildung"></h3>
+                    <div class=" row ">
+                        <div class="timeline-box ">
+                            <div class="timeline ">
 
                                 <!-- Timeline-item -->
-                                <div class="timeline-item">
-                                    <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">
-                                        Bachelor of Science IT-Forensics
-                                    </h3>
-                                    <h4 class="timeline-title">University of Applied Science Mittweida</h4>
-                                    <h4 class="timeline-title">
-                                        <i class="fa fa-calendar"></i> 2024 - 2028
+                                <div class="timeline-item ">
+                                    <div class="circle-dot "></div>
+                                    <h3 class="bilanguage-timeline-title " data-en="Bachelor of Science IT-Forensics" data-du="Bachelor in IT-Forensik"></h3>
+                                    <h4 class="bilanguage-timeline-title " data-en="University of Applied Science Mittweida" data-du="Hochschule Mittweida"></h4>
+                                    <h4 class="bilanguage-timeline-title ">
+                                        <i class="fa fa-calendar "></i> 2024 - 2028
                                     </h4>
                                 </div>
                                 <!-- Timeline-item -->
-                                <div class="timeline-item">
-                                    <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">IT-Apprenticeship at networking</h3>
-                                    <h4 class="timeline-title">Deloitte Wirtschaftsprüfungsgesellschaft GmbH</h4>
-                                    <h4 class="timeline-title">
-                                        <i class="fa fa-calendar"></i> 2021 - 2024
+                                <div class="timeline-item ">
+                                    <div class="circle-dot "></div>
+                                    <h3 class="bilanguage-timeline-title " data-en="IT-Apprenticeship at networking" data-du="Ausbildung Fachinformatik für Systemintegration"></h3>
+                                    <h4 class="bilanguage-timeline-title " data-en="Deloitte GmbH" data-du="Deloitte Wirtschaftsprüfungsgesellschaft GmbH"></h4>
+                                    <h4 class="bilanguage-timeline-title ">
+                                        <i class="fa fa-calendar "></i> 2021 - 2024
                                     </h4>
                                 </div>
                                 <!-- Timeline-item -->
-                                <div class="timeline-item">
-                                    <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">
-                                        A-Levels
-                                    </h3>
-                                    <h4 class="timeline-title"> Saxon State School for Sports Leipzig</h4>
-                                    <h4 class="timeline-title">
-                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                <div class="timeline-item ">
+                                    <div class="circle-dot "></div>
+                                    <h3 class="bilanguage-timeline-title " data-en="A-Levels" data-du="Abitur"></h3>
+                                    <h4 class="bilanguage-timeline-title " data-en="Saxon State School for Sports Leipzig" data-du="Sportgymnasium Leipzig"></h4>
+                                    <h4 class="timeline-title ">
+                                        <i class="fa fa-calendar "></i> 2019 - 2021
                                     </h4>
                                 </div>
 
@@ -138,37 +144,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="internship">
-                    <h3 class="title">Internship</h3>
-                    <div class="row">
-                        <div class="timeline-box">
-                            <div class="timeline"> -->
-
-                <!-- Timeline-item -->
-                <!-- <div class="timeline-item">
-                    <div class="circle-dot"></div>
-                    <h3 class="timeline-title">
-                        ANDROID APPLICATION DEVELOPMENT
-                    </h3>
-                    <h4 class="timeline-title">FLARIAL TECHNOLOGY</h4>
-                    <h4 class="timeline-title">
-                        <i class="fa fa-calendar"></i> JUNE-2022
-                    </h4>
-                    <li class="timeline-text">Proficient in Android app development, with expertise in Java and building basic applications. Experienced in creating intuitive design and layout files. Completed a two-week internship, gaining practical skills and knowledge in the
-                        field.
-                    </li>
-                </div> -->
-                <!-- Timeline-item -->
-                <!-- <div class="timeline-item">
-                    <div class="circle-dot"></div>
-                    <h3 class="timeline-title">PCB LAYOUT DESIGN AND FABRICATION</h3>
-                    <h4 class="timeline-title">PIONEER CIRCUITS</h4>
-                    <h4 class="timeline-title">
-                        <i class="fa fa-calendar"></i> DEC-2021
-                    </h4>
-                    <li class="timeline-text">Experienced in PCB design and fabrication with a focus on Altium Designer software. Proficient in designing high-quality PCB boards. Two-week internship in the field, gaining hands-on experience and enhancing skills.</li>
-                </div> -->
-
             </div>
         </div>
         </div>
@@ -179,41 +154,46 @@
 
 
     <!-------------------------- PPL(A) -------------------------->
-    <section class="project-content" id="projects">
-        <div class="container">
-            <div class="project-title">
-                <h4>About my PPL(A)</h4>
-                <p>Have a look on my journey to get the Private Pilote License for aeroplanes</p>
+    <section class="project-content " id="projects ">
+        <div class="container ">
+            <div class="project-title ">
+                <h4 class='bilanguage' data-en="About my PPL(A)" data-du="Über meine PPL(A)"></h4>
+                <p class='bilanguage' data-en="Have a look on my journey to get the Private Pilote License for aeroplanes" data-du="Schau Dir gern meine Reise zum Erwerb der Privatpilotenlizenz für Flugzeuge an"></p>
             </div>
-            <div class="projects">
+            <div class="projects ">
                 <!-- 1st Project -->
-                <div class="project">
-                    <i class="fa fa-list-alt"></i>
-                    <h4>Learning</h4>
-                    <img src=" files/Flightlog.JPG " alt="Flightlog" style="width:100%; height:30%;" />
-                    <p>
-                        Gaining a pilot's license involves a significant amount of learning. First, you can’t simply jump into the plane and take off; you must understand how airspace is structured, the regulations that govern flying, and the principles of meteorology. You also
-                        need to learn the physics of flight and aviation laws. Each of these areas is crucial for ensuring safety in the air. This comprehensive knowledge not only prepares me for flying but also builds my confidence in my skills. I’m
-                        excited to master these essential concepts as I continue my journey to becoming a pilot.
+                <div class="project ">
+                    <i class="fa fa-list-alt "></i>
+                    <h4 class='bilanguage' data-en="Learning" data-du="Lernen"></h4>
+                    <img src=" files/Flightlog.JPG " alt="Flightlog " style="width:100%; height:30%; " />
+                    <p class='bilanguage' data-en="Gaining a pilot's license involves a significant amount of learning. First, you can’t simply jump into the plane and take off; you must understand how airspace is structured, the regulations that govern flying, and the principles of meteorology. You
+                        also need to learn the physics of flight and aviation laws. Each of these areas is crucial for ensuring safety in the air. This comprehensive knowledge not only prepares me for flying but also builds my confidence in my skills.
+                        I’m excited to master these essential concepts as I continue my journey to becoming a pilot." data-du="Um die Pilotenlizenz zu erwerben, muss eine Reihe von Grundlagen vermittelt werden. Es reicht nicht aus, einfach in das Flugzeug zu steigen und abzuheben. Vorher sollte verstanden werden, wie der Luftraum strukturiert ist, welche Vorschriften für die Fliegerei gelten und wascdie Prinzipien der Meteorologie sind. 
+                        Auch die Flugphysik und Luftfahrtgesetze sollten geläufig sein. Jeder dieser Bereiche ist entscheidend für die Sicherheit in der Luft. Dieses umfassende Wissen bereitet nicht nur auf das Fliegen vor, sondern stärkt auch das Vertrauen in den eigenen Fähigkeiten.
+                        Ich freue mich darauf, diese grundlegenden Konzepte auf meinem weiteren Weg zum Piloten zu beherrschen.">
                     </p>
                 </div>
                 <!-- 2nd Project -->
                 <div class="project ">
-                    <i class="fa fa-volume-up"></i>
-                    <h4>Speaking</h4>
-                    <img src=" files/Heatset.JPG " alt="Heatset" style="width:70%; height:40%;" />
-                    <p>After studying extensively, the next step is to learn how to communicate with air traffic controllers. Since I’m pursuing a Private Pilot License (PPL), I will only need the BZF II, which allows me to speak in German to air traffic
+                    <i class="fa fa-volume-up "></i>
+                    <h4 class='bilanguage' data-en="Speaking" data-du="Sprechen"></h4>
+                    <img src=" files/Heatset.JPG " alt="Heatset " style="width:60%; height:30%; " />
+                    <p class='bilanguage' data-en="After studying extensively, the next step is to learn how to communicate with air traffic controllers. Since I’m pursuing a Private Pilot License (PPL), I will only need the BZF II, which allows me to speak in German to air traffic
                         control. Mastering the necessary radio phrases will be essential for my training and marks an important step in becoming a qualified pilot. Effective communication will help ensure safety and clarity during flights. I am excited
-                        to develop this vital skill and gain confidence in my flying abilities.
+                        to develop this vital skill and gain confidence in my flying abilities." data-du="Neben dem Theorie-Unterricht, sollte der Sprechfunk im Fokus stehen - die Kommunikation mit dem Fluglotsen/ Turm. Da ich eine Privatpilotenlizenz (PPL) anstrebe, brauche ich nur das BZF II, mit dem ich mit der Flugsicherung ausschließlich auf Deutsch sprechen kann.
+Das Beherrschen der notwendigen Funksprüche wird für die Ausbildung unerlässlich sein und stellt einen wichtigen Schritt auf dem Weg zum qualifizierten Piloten dar. 
+Ich freue mich darauf, diese wichtige Fähigkeit zu erwerben und das Vertrauen in meine fliegerischen Fähigkeiten zu gewinnen."></p>
                 </div>
                 <!-- 3rd Project -->
                 <div class="project ">
-                    <i class="fa fa-plane"></i>
-                    <h4>Flying</h4>
-                    <img src=" files/Cessna_172.JPG " alt="Cessna 172 " style="width:auto; height:40%;" />
-                    <p>The final step in my journey is to step into the plane and learn how to fly these incredible machines. This hands-on experience allows me to apply everything I’ve learned about airspace, regulations, and meteorology. Flying involves
+                    <i class="fa fa-plane "></i>
+                    <h4 class='bilanguage' data-en="Flying" data-du="Fliegen"></h4>
+                    <img src=" files/Cessna_172.JPG " alt="Cessna 172 " style="width:auto; height:30%; " />
+                    <p class='bilanguage' data-en="The final step in my journey is to step into the plane and learn how to fly these incredible machines. This hands-on experience allows me to apply everything I’ve learned about airspace, regulations, and meteorology. Flying involves
                         not just controlling the aircraft but also developing the skills needed to navigate safely. I’m excited to master flight maneuvers and experience the freedom of being in the air. This is the moment I’ve been working toward, and
-                        I can’t wait to take to the skies.</p>
+                        I can’t wait to take to the skies." data-du="Der letzte Schritt auf der Reise besteht darin, in ein Flugzeug zu steigen und zu lernen, wie man diese fantastischen Maschinen fliegt. Durch die praktische Erfahrung kann alles angewandt werden, was über den Luftraum, die Vorschriften und Meteorologie gelernt wurde. Zum Fliegen gehört
+                        nicht nur die Steuerung des Flugzeugs, sondern auch die Entwicklung der Fähigkeiten, die für eine sichere Navigation erforderlich sind. 
+Ich freue mich darauf, die verschiedenen Handgriffe zu beherrschen und die Freiheit des Fliegens zu erleben."></p>
                 </div>
 
             </div>
@@ -225,8 +205,8 @@
     <section class="contact-content " id="contact ">
         <div class="container ">
             <div class="contact-title ">
-                <h4>Contact Me</h4>
-                <p>Get In Touch</p>
+                <h4 class='bilanguage' data-en="Contact Me" data-du="Kontaktiere Mich"></h4>
+                <p class='bilanguage' data-en="Get In Touch" data-du="Komme auf mich zu"></p>
             </div>
             <div class="contact ">
                 <form name="submitToGoogleSheet ">
@@ -234,7 +214,7 @@
                     <input type="email " name="EMAIL " placeholder="Email " required>
                     <input type="text " name="SUBJECT " placeholder="Subject ">
                     <textarea name="MESSAGE " placeholder="Message "></textarea>
-                    <input type="submit " value="Send Message " class="submit ">
+                    <input type="submit " value="Send Message " class="bilanguage-submit ">
                 </form>
                 <span id="msg "></span>
             </div>
@@ -249,7 +229,7 @@
 
     <!-------------------------- Footer section -------------------------->
     <footer class="footer ">
-        <small class="message ">Thanks for visiting and have a nice day!</small>
+        <small class="bilanguage-message " data-en="Thanks for visiting and have a nice day!" data-du="Danke für das Besuchen und hab einen schönen Tag"></small>
         <small class="copyright ">&copy; Copyright 2024. All rights reserved.</small>
     </footer>
 
